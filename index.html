@@ -374,6 +374,15 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        const button = document.querySelector('.js_menu');
+        const body = document.querySelector('body');
+        
+        button.addEventListener('click', function() {
+            body.classList.toggle('show-menu');
+        })
+    </script>
 </body>
 
 </html>
