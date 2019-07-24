@@ -63,7 +63,10 @@ Header
 
 header {
     background-color: black;
+    /* padding: 0 0 0 0; */
+    /* padding: 0 0 0; */
     padding: 0 20px;
+    /* padding: 0; */
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -78,10 +81,6 @@ header .container {
 
 header a {
     color: white;
-}
-
-header a:hover {
-    text-decoration: underline;
 }
 
 header .logo {
@@ -380,10 +379,6 @@ contact
     height: 44px;
 }
 
-/* .contact button:hover {
-    border: 6px solid black;
-    color: #4c2358;
-} */
 
 /*
 Footer
