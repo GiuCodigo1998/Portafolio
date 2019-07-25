@@ -81,7 +81,6 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
-    
 }
 
 header .container {
@@ -404,11 +403,6 @@ contact
     justify-content: space-between;
 
 }
-/* .contact .envios .fb-share-button{
-    display: flex;
-    align-items: center;
-    
-} */
 
 /*
 Footer
@@ -441,11 +435,17 @@ Responsive
 */
 
 @media (max-width:960px) {
+
     header {
         padding: 0;
+        box-shadow: 0px 0px 35px 0px #00adb5;
     }
     .container {
         padding: 0 20px;
+    }
+    
+    header .container {
+        box-shadow:none;
     }
     main section {
         margin-bottom: 40px;
